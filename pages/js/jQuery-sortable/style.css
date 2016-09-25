@@ -1,0 +1,21 @@
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+/*  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;*/
+  display: none;
+}
+
+
+ul.to-do-list li.placeholder  , ol.sortable-list li.placeholder {
+  position: relative;
+  background: none repeat scroll 0 0 #d2d2d2;
+  /** More li styles **/
+}
+ul.to-do-list li.placeholder:before, ol.sortable-list li.placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}

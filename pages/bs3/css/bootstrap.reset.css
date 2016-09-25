@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+#adminmenuback{z-index: 0;}
+.tools a {
+  color: #A7A7A7;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.panel-body{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+/* Reset Response */
+/*
+@media only screen and (max-width: 979px) {
+   #wpwrap{
+  background-color: #ffff00 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    #wpwrap{
+  background-color: #80ff00 !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+    #wpwrap{
+  background-color: #00ffff !important;
+  }
+@media only screen and (max-width: 360px) {
+   #wpwrap{
+  background-color: #8080c0 !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #wpwrap{
+  background-color: red !important;
+  }
+}*/
+
+@media only screen and (max-width: 979px) {
+   .sm-left{
+   		text-align: left !important;
+   }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .sm-left{
+   		text-align: left !important;
+   }
+}
+@media only screen and (max-width: 640px) {
+}
+@media only screen and (max-width: 360px) {
+}
+@media only screen and (max-width: 480px) {
+}
+
+

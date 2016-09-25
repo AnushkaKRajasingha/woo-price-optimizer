@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+.page-title{
+	display: none;
+}
+div#data_table_quotes_wrapper thead tr {
+    background: #267108;
+    color: #fff;
+}
+
+div#data_table_quotes_wrapper tr.group {
+    background: #bed6c4;
+    font-weight:600;
+    font-size:0.9em;
+}

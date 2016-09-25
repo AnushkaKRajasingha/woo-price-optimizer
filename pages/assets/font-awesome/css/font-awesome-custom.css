@@ -1,0 +1,80 @@
+@CHARSET "ISO-8859-1";
+.fa.fa-cleaning {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/sweep1.png");
+  background-origin: padding-box;
+  background-position: 0 0.15em;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  display: inline-block;
+  height: 16px;
+  opacity: 0.8;
+  width: 16px;
+}
+
+.fa.fa-bathroom {
+  background: url("../images/bathtub3.png") no-repeat scroll 0 0.15em / 100% 90% rgba(0, 0, 0, 0);
+  display: inline-block;  
+  opacity: 0.8;
+}
+.fa.fa-bathroom.fa-mymq-5x{
+	background-image: url("../images/bathtub3-mymq-5x.png");	
+}
+
+.fa.fa-sqft{
+  background: url("../images/square81.png") no-repeat scroll 0 0.15em / 100% 90% rgba(0, 0, 0, 0);
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.fa.fa-hourlyrate{
+  background: url("../images/time24.png") no-repeat scroll 0 0.15em / 100% 90% rgba(0, 0, 0, 0);
+  display: inline-block;
+  opacity: 0.8;
+}
+
+/*.fa.fa-expand{
+  background: url("../images/expanding2.png") no-repeat scroll 0 0.15em / 100% 90% rgba(0, 0, 0, 0);
+  display: inline-block;
+  opacity: 0.8;
+}*/
+
+.fa.fa-bed.fa-mymq-5x::before,.fa.fa-paw.fa-mymq-5x::before {
+  content: "";
+}
+
+.fa.fa-bed.fa-mymq-5x {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/bed-mymq-5x.png");
+  background-origin: padding-box;
+  background-position: 0 0.15em;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+.fa.fa-paw.fa-mymq-5x {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../images/paw-mymq-5x.png");
+  background-origin: padding-box;
+  background-position: 0 0.15em;
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+}
+
+.fa-mymq-lg
+{  
+	height: 16px;
+  	width: 16px;
+}
+
+.fa-mymq-5x
+{  
+	height: 1.3em;
+  	width: 1.3em;
+}

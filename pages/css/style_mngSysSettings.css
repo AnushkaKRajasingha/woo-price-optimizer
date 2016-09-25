@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+.icon-image .item-thumb-ctner > img {
+    max-height: 5vw;
+        width: auto !important;
+}
+.item-thumb-ctner {
+    display: table-cell;
+    max-height: 0.7vw;
+}
+div#is_mapped_field_ctr:empty{
+	content: "Zero mapped fields";
+}
+#is_mapped_field_ctr .input-group{
+	padding-right: 0.5vw;
+	margin-bottom: 0.2vw;
+}
+#is_mapped_field_ctr .btnisremove{
+	height: 34px;	
+}
+span.btnisfieldremove{
+	cursor: pointer;
+}

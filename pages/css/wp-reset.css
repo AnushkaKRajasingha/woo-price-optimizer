@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+.postbox{
+	position: inherit; 
+}
+.content {
+	display: table-cell;
+}
+
+.v-middel {
+	display: table !important;
+	vertical-align: middle;
+}
+.postbox{
+	padding: 1vh;
+}
+
+.panel-heading > h4 {
+  margin: 0;
+  /*min-height: 34px;*/
+}
+
+/* WPEngine Plugin Style Reset */
+
+body[class*="maidquote_page"], body.toplevel_page_mq{
+	
+}
+
+body[class*="maidquote_page"] .modal-backdrop,body.toplevel_page_mq .modal-backdrop,
+body[class*="maidquote_page"] .modal-backdrop.fade.in,body.toplevel_page_mq .modal-backdrop.fade.in{
+ z-index: 1030;
+}
+
+body[class*="maidquote_page"] div.modal, body.toplevel_page_mq div.modal{
+	background-color:rgba(0, 0, 0, 0) ;
+	margin-left:0px;
+	width:auto;
+	border: medium none;
+	top: 0 !important;
+}
+
+body[class*="maidquote_page"] div.modal .modal-body, body.toplevel_page_mq div.modal .modal-body{
+	max-height: 100%;
+	overflow-y: visible;
+}
+.custom-var-dump {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    z-index: 99;
+}

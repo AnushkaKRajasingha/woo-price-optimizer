@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+span.fa.fa-times {
+  font-size: 22px;
+  padding: 6px 5px;
+  width: 32px;
+}
+
+.custom-time{
+	  line-height: 14px;
+  margin-left: 5px;
+  padding: 1px !important;
+  width: 50px;
+  text-align: right;
+}
+
+.custom-time[type=number]{
+	width: 75px;
+}

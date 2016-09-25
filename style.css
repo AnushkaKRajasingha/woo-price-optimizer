@@ -1,0 +1,102 @@
+@CHARSET "ISO-8859-1";
+/* Plugin - Header */
+.admin-color-fresh #redux-header,.wp-customizer #redux-header {
+    background: #23282d;
+    border-color: #0073aa
+}
+#redux-header h2 {
+    color: #fff
+}
+
+
+.admin-color-fresh #redux-header .display_header span,.wp-customizer #redux-header .display_header span {
+    color: #a0a5aa
+}
+
+.redux-container #redux-header,.redux-container #redux-footer {
+    text-align: right;
+    padding: 6px 10px
+}
+
+
+.redux-container #redux-header .display_header {
+    float: left;
+    margin: 20px 10px
+}
+
+.redux-container #redux-header .display_header h2 {
+    display: inline-block;
+    font-style: normal;
+    padding-right: 5px
+}
+
+.redux-container #redux-header .display_header .redux-dev-mode-notice-container {
+    position: absolute;
+    top: 67px;
+    left: 20px;
+    bottom: auto;
+    width: auto
+}
+
+.redux-container #redux-header .display_header span {
+    color: #888
+}
+
+.redux-container #redux-header .display_header span.redux-dev-mode-notice {
+    background-color: #f0ad4e;
+    display: inline;
+    padding: .2em .5em .2em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff !important;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em
+}
+
+.redux-container #redux-header .icon32 {
+    float: right;
+    margin: 16px 16px 0
+}
+
+.logobig, .logobig:hover {
+  /*background: url("pages/images/logo.png") no-repeat scroll 25% center / 64% auto #1fb5ad;
+  border-bottom: #1faaa3 6px solid;*/
+  color: #000;
+  font-size: 2vw;
+  height: 4vh;
+  padding: 1vw;
+ /* padding-left:0px;*/
+  margin-left:0px;
+  text-decoration: none;
+  vertical-align: middle;
+ width: 20vw;
+}
+
+/* Page - Header */
+.page-title{
+	padding: 1vh;
+}
+
+div#load_bar_ctrl,div#load_bar_ctrl2{
+	display: none;
+}
+
+/* Page 404 */
+.page-notfound{
+	padding: 10vh;
+	text-align: center;
+}
+.page-notfound h1{
+	font-size: 8vw;
+}
+
+.wpdberror {
+ /* display: none;*/
+}
+.wpdberror code {
+  display: block;
+  white-space: normal;
+  width: 100%;
+}

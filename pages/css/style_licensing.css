@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+.page-title{
+	display: none;
+}
+.item_container{
+	border: 1px solid #EEEEEE;
+	border-radius:5px;
+}
+.btn-bottom{
+	float: none !important;
+}
+
+div#modal_licensing {
+    margin-left: inherit;
+    background-color: inherit;
+    width: inherit;
+}
+.modal-backdrop.fade.in{
+z-index:1;
+}

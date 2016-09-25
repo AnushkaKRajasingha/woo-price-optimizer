@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+.page-title {
+    display: none;
+}
+.panel-group .panel-heading + .panel-collapse .panel-body {
+  padding: 10px;
+  border-top: none !important;
+}

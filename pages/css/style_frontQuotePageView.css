@@ -1,0 +1,392 @@
+@CHARSET "ISO-8859-1";
+@IMPORT url("../assets/bootcheckbox/awesome-bootstrap-checkbox.css");
+.your-logo {
+  border: 1px solid  rgb(204, 204, 204);
+  margin: 1%;
+  padding: 1%;
+}
+.steps > ul > li a {
+  font-size: 0.9em;
+  font-weight: bold;
+  line-height: 1.5em;
+  /*padding: 0.5em !important;*/
+}
+.steps > ul > li:nth-child(7),.steps > ul > li:nth-child(8){
+	display: none;
+}
+.wizard .body.current {
+  /*background: none repeat scroll 0 0  rgb(238, 238, 238);*/
+}
+
+.icon-huge {
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.icon-huge span.text {
+  font-size: 1.2em;
+  display: block;
+}
+
+.icon-huge i.fa {
+  font-size: 5em;
+  padding: 5%;
+}
+
+.text-medume {
+  font-size: 0.9em !important;
+}
+
+div#about-your-home{
+	border-right:1px solid rgba(0,0,0,0.2);
+}
+div#extra-services > col-md-12{
+	border-bottom:1px solid rgba(0,0,0,0.5);
+}
+div#extra-services h3 {
+  margin: 0;
+}
+
+/*.wizard > .steps > ul > li {
+  width: 20% !important;
+}*/
+.wizard code {
+  display: block;
+  padding: 0 0 1%;
+  text-align: center;
+}
+
+.wizard > .content {
+ 
+  min-height: 25em !important;
+}
+
+.input-container {
+  float: none !important;
+  margin: 0 auto;
+}
+.wizard > .content > .body input[type=radio] {
+  display: none !important;
+}
+
+/* Start Pricing Tab */
+.start-price.icon-image, .frequency.icon-image, .add-service.icon-image {
+  background:  no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  margin: 2% auto;
+  padding-bottom: 20%;
+  width: 20%;
+  cursor: pointer;
+}
+
+/* Front view */
+.wizard > .content > .body {
+  position: relative !important;
+}
+
+
+
+.wpdberror {
+  display: none;
+}
+
+/* Quote Summery */
+p#modalText .quote-summery,p#modalText .quote-contact{
+	width: 95%;
+}
+p#modalText .lable-text,p#modalText .value-text{
+	width: 46%;
+}
+p#modalText .lable-text,p#modalText .value-text ,p#modalText .service-item,p#modalText .quote-summery > h3,p#modalText .panel-heading{
+	margin-top: 0;
+	padding-top: 0;
+}
+p#modalText .quote-summery > h3 ,p#modalText .quote-contact > h3{display: none;}
+.quote-summery {
+  margin: 0 auto;
+  width: 70%;
+}
+.quote-summery > h3 {
+ /* text-align: center;*/
+  margin-bottom: 5px;
+}
+
+.service-item {
+  width: 100%;
+}
+.lable-text, .value-text {
+  display: inline-block;
+  margin-top: 0.25em;
+  width: 50%;
+}
+.service-item-sub .lable-text {
+  padding-left: 2%;
+}
+.service-item-sub .warning {
+  color: rgb(255, 0, 0);
+}
+.value-text.currency:before {
+  content: "$ ";
+}
+.service-item {
+	font-size:1.2em;
+  clear: both;
+  display: block;
+  margin-top: 1%;
+  width: 100%;
+}
+.service-item.total {
+  font-size: 1.5em;
+}
+.quote-total.actual {
+  font-weight: bold;
+}
+
+/* Quote Summery */
+
+h3#pmtquotetotal::before {
+  content: "Your Quote Total is  $";
+}
+
+select, select > option {
+  color: rgb(51, 51, 51) !important;
+}
+
+
+
+div#layerProcessing {
+	display:none;
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+  cursor: not-allowed;
+  left: 0;
+  padding: 20% 0 30%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+input[type="checkbox"], input[type="color"], input[type="date"], input[type="datetime-local"], input[type="datetime"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="radio"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], select, textarea {
+  color: rgb(51, 51, 51);
+}
+form.hide-form{
+	display:none;
+}
+
+* Custom wizard style */
+.wizard > .content{
+	   -webkit-box-shadow: 10px 9px 23px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 23px -5px rgba(0,0,0,0.75);
+box-shadow: 10px 9px 23px -5px rgba(0,0,0,0.75);
+padding-bottom: 35px;
+}
+
+.wizard > .content > .body {
+  float: left;
+  position: absolute;
+  width: 100%;
+}
+
+.wizard .body.current {
+  
+}
+
+.wizard > .actions {
+  right: 5px;
+  top: -35px;
+}
+
+
+.steps {
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: 0.5em;
+}
+
+.wizard > .steps > ul > li {
+  cursor: default;
+  float: left;
+  font-size: 14px;
+  height: 32px;
+  line-height: 1.5em;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  width: 16.5% !important;
+}
+
+
+.wizard > .steps > ul > li.current{
+	 background: none repeat scroll 0 0 #b2b8bd;
+    color: #ffffff;
+}
+
+.steps > ul > li a {
+  font-size: 0.8em;
+  font-weight: bold;
+  line-height: inherit;
+  
+}
+
+.wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active{
+	padding: 0.5em;
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active{
+	background: inherit !important;
+}
+
+.wizard > .steps a, .wizard > .steps a:hover, .wizard > .steps a:active {
+  margin: inherit;
+  border-radius : 0px;
+}
+
+.wizard > .steps .number {
+  margin-right: 5px;
+}
+
+.wizard > .steps .number {
+
+	background: none repeat scroll 0 0 #67c2ef;
+	
+	 border: 0 none;
+	 font-size: 10px;
+	 font-weight: 300;
+	 padding: 4px 6px;
+	 text-shadow: none;
+	
+	
+	 border-radius: 10px;
+	 color: #ffffff;
+	 display: inline-block;
+	 line-height: 1;
+	 min-width: 10px;
+	 text-align: center;
+	 vertical-align: baseline;
+	 white-space: nowrap;
+}
+
+.chevron{
+	background-color: #eeeeee;
+}
+
+.wizard > .steps > ul > li.current .chevron::before  {
+  border-left: 32px solid #b2b8bd;
+}
+
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+  background: none repeat scroll 0 0 #29b5ad;
+  color: #ffffff;
+}
+.wizard > .steps > ul > li.done .chevron::before  {
+  border-left: 32px solid #29b5ad;
+}
+
+.done .chevron{
+	background-color: #b2b8bd;
+}
+
+li.current ~ li.done .chevron{
+	background-color: #29b5ad;
+}
+
+.wizard > .steps > ul > li .chevron::before {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: rgba(0, 0, 0, 0) #fff rgba(0, 0, 0, 0) #eeeeee;
+  border-image: none;
+  border-style: solid none solid solid;
+  border-width: 48px 0 48px 28px;
+  content: "";
+  display: block;
+  position: absolute;
+  right: 12px;
+  top: -48px;
+}
+
+.wizard > .steps > ul > li .chevron {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: rgba(0, 0, 0, 0) #fff rgba(0, 0, 0, 0) #ffffff;
+  border-image: none;
+  border-style: solid none solid solid;
+  border-width: 48px 0 48px 28px;
+  display: block;
+  position: absolute;
+  right: -12px;
+  top: -32px;
+  z-index: 1;
+}
+
+.small-label{
+	font-size: 1em;
+}
+
+/* Reset Response */
+
+
+@media only screen and (max-width: 979px) {   
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {   
+}
+@media only screen and (max-width: 640px) {
+	.wizard > .actions{
+		position: static;
+		padding: 0.5em;
+    	text-align: center;
+	}
+	.wizard > .actions > ul{
+		width:100%;
+	}
+	.wizard > .actions > ul > li{
+		margin: 0 !important;
+		width: 50%;
+	}
+	.wizard > .actions > ul > li > a{
+		text-align: center;
+	    font-size: 5vw;
+	    background-color: #95b75d;
+    	color: #FFFFFF;
+        border: 1vw solid #FFFFFF;
+    	border-radius: 4px;
+	}
+	.wizard > .actions > ul > li > a:FOCUS, .wizard > .actions > ul > li > a:ACTIVE
+	{
+	    background: #ed6a31;
+    	background: -webkit-linear-gradient(top, #ed6a31 0%, #e55627 100%);
+	}
+	div#wizard > .content > h2.title.current{
+		margin-top:3vw;
+		padding-bottom: 3vw;
+	    font-size: 6vw;
+	    position: inherit;
+	    left: inherit !important;
+	    text-align: center;
+	    border-bottom: 0.4vw solid #ccc;
+	}
+}
+@media only screen and (max-width: 360px) {
+}
+@media only screen and (max-width: 480px) {
+	.chevron{display:none !important;}
+	
+	i.fa{
+		font-size: 2em !important;
+	}
+	.col-sm-6.text-right, h3.col-sm-6{
+		text-align: center !important;
+		padding: 1vw 0px;
+	}
+	h3.col-sm-6 {
+	    margin-top: 5vw !important;
+	    padding-top: 5vw !important;
+	    border-top: 1px solid #000;
+	}
+	
+}
+
+/* Custom wizard style ends */

@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+.animated{
+	transition-delay: 0s;
+	transition-duration: 100ms;
+	transition-property: all;
+	transition-timing-function: linear;
+}
+
+.rotate-animation:HOVER {
+	-webkit-transform: rotate(-3deg);
+	-moz-transform: rotate(-3deg);
+}
+.text-shadow-animation{
+	text-shadow: 5px 5px 5px #000000;
+}
+.text-shadow-animation:HOVER {
+	text-shadow: 20px 5px 20px #000000;
+}
