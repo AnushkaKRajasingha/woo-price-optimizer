@@ -88,7 +88,7 @@ class ErrorLogger extends Plugin_Core {
 	//************************************************************************
 	
 	public function __construct(){
-		$this->__filename = WPHT_PLUGINDIR.'/_errorlog.txt';
+		$this->__filename = WOOPO_PLUGINDIR.'/_errorlog.txt';
 		$this->__fileopentype = 'Append';
 		$this->__logtype = 4;
 		$this->__errorpattern = "ERROR:" . date("d F Y h:i a") . " : %s";

@@ -4,8 +4,8 @@ require_once "../../../../../wp-blog-header.php";
 $args = array(
 		'TextDomain' =>Plugin_Core::$current_plugin_data['TextDomain'],
 		'admin_ajaxurl' =>  admin_url( 'admin-ajax.php' ),
-		'imageDirUrl' => WPHT_PLUGIN_IMGDIR_URL,
-		'tempImgDirUrl' => WPHT_PLUGIN_SPLASHTEMDIR_URL.'/images/'
+		'imageDirUrl' => WOOPO_PLUGIN_IMGDIR_URL,
+		'tempImgDirUrl' => WOOPO_PLUGIN_SPLASHTEMDIR_URL.'/images/'
 );
 ?>
 var localize_var =  <?php echo json_encode($args);?>;

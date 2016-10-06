@@ -4,7 +4,7 @@ class init_var{
 	
 	public function _initVar(){
 		require_once 'plugin-config.php';
-		foreach ($WPHT_var_array as $key => $value) {
+		foreach ($WOOPO_var_array as $key => $value) {
 			if(!defined($key)){
 				define($key, $value);
 			}
@@ -75,7 +75,7 @@ class init_var{
 	}
 	/* DB changes ececution by AKR on 06122015 */
 	public static function _getDbUpdates(){
-		$_path = WPHT_CLS_DIR.'/db/update.sql';
+		$_path = WOOPO_CLS_DIR.'/db/update.sql';
 		$_file = fopen($_path, 'r');
 		$_scripts = array();
 		while (!feof($_file)) {

@@ -41,7 +41,7 @@ function getHelpSupportRefRef(){
 function setUnderConstruction(){
 	?>
 	Will be back soon..
-		<img src="<?php echo WPHT_PLUGIN_PGDIR_URL; ?>/images/under-construction.gif" alt="under Construction" />
+		<img src="<?php echo WOOPO_PLUGIN_PGDIR_URL; ?>/images/under-construction.gif" alt="under Construction" />
 	<?php
 }
 

@@ -1,7 +1,7 @@
 <?php
 class Plugin_Functions extends Plugin_Core{
 	public function __construct(){
-		include_once WPHT_CLS_DIR.'/helper/helper-functions.php';
+		include_once WOOPO_CLS_DIR.'/helper/helper-functions.php';
 	}
 	
 	/* added new functions in to the plugin core upone req#0006 */

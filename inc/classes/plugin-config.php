@@ -1,6 +1,6 @@
 <?php
-$WPHT_var_array = array(
-		WOOPO.'_PLUGIN_FILE' => 'henrytrack-plugin.php',
+$WOOPO_var_array = array(
+		WOOPO.'_PLUGIN_FILE' => 'woo-price-optimizer.php',
 		WOOPO.'_PLUGINDIR' =>  dirname(dirname(plugin_dir_path(__FILE__))),
 		WOOPO.'_PLUGIN_PAGES' =>  dirname(dirname(plugin_dir_path(__FILE__))).'/pages',
 		WOOPO.'_PLUGIN_TEMPLATES' =>  dirname(dirname(plugin_dir_path(__FILE__))).'/pages/templates',
@@ -18,7 +18,9 @@ $WPHT_var_array = array(
 		WOOPO.'_CLS_DIR' => dirname(plugin_dir_path(__FILE__)).'/classes'
 );
 
-$plugin_main_page =  array('_key'=>'_htrecdetails','Title'=>__( 'Henry Track Records', $_plugindata['Text Domain']),'MenuText'=>__( 'Track Records', $_plugindata['Text Domain']) ,'capability'=> 'manage_options','callback' => '_option_page_sub','page-style'=>true,'page-script'=>true ,'scriptDep' => array('jquery','common-data','plugin_utilities','bootstrap-switch-master'),'cls'=>'page-main');
+
+
+$plugin_main_page = array('_key'=>'woopriceop','Title'=>__( 'Woo Price Optimizer - Vistor Tracking Report', 'woopriceop'),'MenuText'=>__( 'Repoarts', 'woopriceop') ,'capability'=> 'manage_options','callback' => '_option_page_sub','page-style'=>true,'page-script'=>true ,'scriptDep' => array('jquery','common-data','plugin_utilities','bootstrap-switch-master'),'cls'=>'page-main');
 
 $plugin_menu_items = array(		
 		/*'_mngSysSettings' => array('_key'=>'_mngSysSettings','Title'=>'System Settings','MenuText'=>'System Settings','capability'=> 'manage_options','callback' => '_option_page_sub','page-style'=>true,'page-script'=>true ,'scriptDep' => array('jquery','common-data','plugin_utilities')),

@@ -16,6 +16,7 @@
  * UserDocumentation: http://www.anushkar.com/plugins/woo-price-optimizer/userdoc
  * DevDocumentation: http://www.anushkar.com/plugins/woo-price-optimizer/devdoc
  * HelpAndSupport: http://www.anushkar.com/plugins/woo-price-optimizer/help
- * Environment: Dev
+ * Environment: Live
  * 
  * */
+require_once __DIR__.'/inc/options.php';

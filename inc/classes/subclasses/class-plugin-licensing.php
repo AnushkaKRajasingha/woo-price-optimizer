@@ -57,13 +57,13 @@ class Plugin_lisense extends Plugin_Core{
 		extract($page_param);
 		
 		$page_stylefile = 'style_licensing.css';
-		if(file_exists(WPHT_PLUGIN_PAGES.'/css/'.$page_stylefile))
-			wp_enqueue_style( self::$current_plugin_data['TextDomain'].'-licensing-style',WPHT_PLUGIN_CSSDIR_URL.'/'.$page_stylefile,array(),self::$current_plugin_data['Version']);
+		if(file_exists(WOOPO_PLUGIN_PAGES.'/css/'.$page_stylefile))
+			wp_enqueue_style( self::$current_plugin_data['TextDomain'].'-licensing-style',WOOPO_PLUGIN_CSSDIR_URL.'/'.$page_stylefile,array(),self::$current_plugin_data['Version']);
 		$page_scriptfile = 'script_licensing.js';
-		if(file_exists(WPHT_PLUGIN_PAGES.'/js/'.$page_scriptfile))
-			wp_enqueue_script( self::$current_plugin_data['TextDomain'].'-licensing-script',WPHT_PLUGIN_JSDIR_URL.'/'.$page_scriptfile,array('jquery','common-data','bootbox.min','plugin_utilities'),self::$current_plugin_data['Version'],true);
+		if(file_exists(WOOPO_PLUGIN_PAGES.'/js/'.$page_scriptfile))
+			wp_enqueue_script( self::$current_plugin_data['TextDomain'].'-licensing-script',WOOPO_PLUGIN_JSDIR_URL.'/'.$page_scriptfile,array('jquery','common-data','bootbox.min','plugin_utilities'),self::$current_plugin_data['Version'],true);
 		
-		include_once WPHT_PLUGIN_PAGES.'/page_licensing.php';
+		include_once WOOPO_PLUGIN_PAGES.'/page_licensing.php';
 	}
 	
 	public function _expire_page(){
@@ -75,13 +75,13 @@ class Plugin_lisense extends Plugin_Core{
 		extract($page_param);
 	
 		$page_stylefile = 'style_expired.css';
-		if(file_exists(WPHT_PLUGIN_PAGES.'/css/'.$page_stylefile))
-			wp_enqueue_style( self::$current_plugin_data['TextDomain'].'-expired-style',WPHT_PLUGIN_CSSDIR_URL.'/'.$page_stylefile,array(),self::$current_plugin_data['Version']);
+		if(file_exists(WOOPO_PLUGIN_PAGES.'/css/'.$page_stylefile))
+			wp_enqueue_style( self::$current_plugin_data['TextDomain'].'-expired-style',WOOPO_PLUGIN_CSSDIR_URL.'/'.$page_stylefile,array(),self::$current_plugin_data['Version']);
 		$page_scriptfile = 'script_expired.js';
-		if(file_exists(WPHT_PLUGIN_PAGES.'/js/'.$page_scriptfile))
-			wp_enqueue_script( self::$current_plugin_data['TextDomain'].'-expired-script',WPHT_PLUGIN_JSDIR_URL.'/'.$page_scriptfile,array('jquery','common-data','bootbox.min','plugin_utilities'),self::$current_plugin_data['Version'],true);
+		if(file_exists(WOOPO_PLUGIN_PAGES.'/js/'.$page_scriptfile))
+			wp_enqueue_script( self::$current_plugin_data['TextDomain'].'-expired-script',WOOPO_PLUGIN_JSDIR_URL.'/'.$page_scriptfile,array('jquery','common-data','bootbox.min','plugin_utilities'),self::$current_plugin_data['Version'],true);
 	
-		include_once WPHT_PLUGIN_PAGES.'/page_expired.php';
+		include_once WOOPO_PLUGIN_PAGES.'/page_expired.php';
 	}
 
 	public function _activateLicense(){

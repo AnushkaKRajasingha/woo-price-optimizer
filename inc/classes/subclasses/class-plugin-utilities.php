@@ -149,7 +149,7 @@ class Plugin_Utilities extends Plugin_Core {
 	public static function getClassPropMeta($className){
 		$metaData = array();
 		try {
-			require_once WPHT_CLS_DIR.'/subclasses/plugins/class-plugin-docblock.php';
+			require_once WOOPO_CLS_DIR.'/subclasses/plugins/class-plugin-docblock.php';
 			$rc = new ReflectionClass($className);
 			$properties = $rc->getProperties(ReflectionProperty::IS_PUBLIC); 
 			foreach ($properties as $key => $value) {

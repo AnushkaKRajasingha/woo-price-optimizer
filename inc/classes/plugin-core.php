@@ -31,7 +31,7 @@ class Plugin_Core extends Loader{
 	
 	
 	public  function __construct(){	
-		self::$current_plugin_data = get_file_data(WPHT_PLUGINDIR.'/henrytrack-plugin.php', self::$default_headers);
+		self::$current_plugin_data = get_file_data(WOOPO_PLUGINDIR.'/woo-price-optimizer.php', self::$default_headers);
 		$this->classloader();
 	}
 	/* ----- magic methods --------------------------------- */
@@ -167,7 +167,7 @@ class Plugin_Core extends Loader{
 	
 /* Log any errors */ 
 	public function logger($data){
-		$f = @fopen(WPHT_PLUGINDIR.'/_errorlog.txt', 'a+');
+		$f = @fopen(WOOPO_PLUGINDIR.'/_errorlog.txt', 'a+');
 		if(!$f) die("Fehlgeschlagen");
 		$out = var_export($data, true);
 		fputs($f, date('d.m.Y - H:i:s').' => ');

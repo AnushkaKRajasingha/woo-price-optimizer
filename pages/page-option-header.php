@@ -17,7 +17,7 @@
                                 </div> -->
                                 <p id="modalText"></p>
                                <div style="width:100%;text-align: center;">
-                                <img width="100px"  src="<?php echo WPHT_PLUGIN_IMGDIR_URL;?>/gears2.gif" /></div>                                        
+                                <img width="100px"  src="<?php echo WOOPO_PLUGIN_IMGDIR_URL;?>/gears2.gif" /></div>                                        
                                  </div>
                                     </div>
                                 </div>
@@ -52,4 +52,4 @@
 </div>
 	<div class="wrapper">
 		<div class="postbox plugin-wrap <?php echo getPluginShortName(); ?> <?php echo page_css_class(); ?>">
-		<header class="panel-heading page-title"><h2><?php echo page_title(); ?><div id="load_bar_ctrl" class="pull-right"><img alt="Loading..." src="<?php echo WPHT_PLUGIN_IMGDIR_URL;?>/loading_bar.gif"></div></h2></header>
+		<header class="panel-heading page-title"><h2><?php echo page_title(); ?><div id="load_bar_ctrl" class="pull-right"><img alt="Loading..." src="<?php echo WOOPO_PLUGIN_IMGDIR_URL;?>/loading_bar.gif"></div></h2></header>

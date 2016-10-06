@@ -3,8 +3,8 @@ class Add_Hooks extends Plugin_Core{
 	public function __construct(){
 	//	if(self::$current_plugin_data['Environment'] == 'Dev'){set_error_handler('var_dump');}
 		$this->_addHook();
-		register_activation_hook( WPHT_PLUGINDIR.'/'.WPHT_PLUGIN_FILE,array($this,'_activate'));
-		register_deactivation_hook( WPHT_PLUGINDIR.'/'.WPHT_PLUGIN_FILE,array($this,'_deactivate'));
+		register_activation_hook( WOOPO_PLUGINDIR.'/'.WOOPO_PLUGIN_FILE,array($this,'_activate'));
+		register_deactivation_hook( WOOPO_PLUGINDIR.'/'.WOOPO_PLUGIN_FILE,array($this,'_deactivate'));
 		$this->_regAjaxMethosd();
 		$this->_registerHelperFuncs();
 		$this->_regPluginShortCodes();		
